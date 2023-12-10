@@ -64,8 +64,8 @@ classDiagram
     PackAnimal --|> Camel
     PackAnimal --|> Donkey
     PackAnimal --|> Horse
-    AAnimal  --|> PackAnimal
-    AAnimal  --|> PetAnimal
+    Animal  --|> PackAnimal
+    Animal  --|> PetAnimal
     class Cat {
 
     }
